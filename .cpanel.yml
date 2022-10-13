@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOY=/home2/piezadig/public_html/
-    - /bin/rzync -a --exclude 'index.php' public/ $DEPLOY
+    - /bin/rzync -av --exclude 'index.php' public/ $DEPLOY
