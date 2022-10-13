@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOY=/home2/piezadig/public_html/
-    - /bin/rzync -av --exclude 'index.php' public/ $DEPLOY
+    - export DEPLOY=/home2/piezadig/public_html/triviaguatemala.piezadigital.com/
+    - /bin/rzync -a --exclude 'index.php' public/ $DEPLOY
