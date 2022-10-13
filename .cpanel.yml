@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/piezadig/public_html/triviaguatemala.piezadigital.com/
+    - /bin/rzync -a --exclude 'index.php' public/ $DEPLOYPATH
