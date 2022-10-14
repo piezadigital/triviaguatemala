@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/piezadig/wil/
-    - /bin/rsync ./public/ $DEPLOYPATH
+    - /bin/rsync /public/ $DEPLOYPATH
