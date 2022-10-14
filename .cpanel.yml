@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/piezadig/public_html/triviaguatemala.piezadigital.com
-    - /usr/bin/rzync -av public/ $DEPLOYPATH
+    - export DEPLOYPATH=/home2/piezadig/wil/
+    - /usr/bin/rzync -a public/ $DEPLOYPATH
