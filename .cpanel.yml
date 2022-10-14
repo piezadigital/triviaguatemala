@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/piezadig/wil/
-    - /bin/cp -a -R -v /public/ $DEPLOYPATH
+    - /bin/cp -a -R -v * /public/ $DEPLOYPATH
