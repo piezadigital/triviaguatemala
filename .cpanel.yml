@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/piezadig/wil/
-    - /usr/bin/rzync -a public/ $DEPLOYPATH
+    - ./bin/rzync -a public/ $DEPLOYPATH
