@@ -31,7 +31,7 @@ if (file_exists($maintenance = __DIR__ . '/../repositories/triviaguatemala/stora
 |
 */
 
-require __DIR__ . '/home2/piezadig/repositories/triviaguatemala/vendor/autoload.php';
+require '/home2/piezadig/repositories/triviaguatemala/vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,7 +44,7 @@ require __DIR__ . '/home2/piezadig/repositories/triviaguatemala/vendor/autoload.
 |
 */
 
-$app = require_once __DIR__ . '/home2/piezadig/repositories/triviaguatemala/bootstrap/app.php';
+$app = require_once '/home2/piezadig/repositories/triviaguatemala/bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);
 
