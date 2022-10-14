@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/piezadig/wil/
-    - /bin/rzync -a /home2/piezadig/repositories/triviaguatemala/public/. $DEPLOYPATH
+    - /bin/rzync -a /home2/piezadig/repositories/triviaguatemala/public/ $DEPLOYPATH
